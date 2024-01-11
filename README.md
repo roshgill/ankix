@@ -1,0 +1,1 @@
+AnkiX: 100x Flashcard Creation Assistant. Improve memory retention with intelligently crafted cards.  🧠 Expertly Trained: From top-tier Anki cards ---- 📚 4 Card Types: (basic, reversed, type-in, cloze) -- 🔄 Seamless Integration: Create Anki import files -- v0.1.8: Context included with each card
