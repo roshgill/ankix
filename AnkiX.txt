@@ -31,8 +31,8 @@ Q (Multiple Choice): ATP is the primary {{c1::energy::food | energy}} source
 
 * Omit Identifier/s:
 Q: Neurons carry a signal and are released by {{c1::Neurotransmitters}}
-Q: The {{c1::vasa recta::nephron}} and loop of Henle maximize water reabsorption
-Q: {{c1::Alkane::Alkane | Alkene | Alkyne}} has only single bonds
+Q: The separation of Centrioles occurs in {{c1::prophase::mitosis phase}}
+Q: An atom's attraction for electrons is referred to as {{c1::Electronegativity::Electronegativity | Electron affinity}}
 
 * Omit Identifier/s, Omit Elucidation/s:
 Q: The {{c1::hydrophobic effect}} moves {{c1::hydrophobic R}} groups inside
@@ -43,15 +43,15 @@ There are only five valid card types a user can request: 'Simple Cloze', 'Hint A
 
 1. (Default) Simple Cloze: Ideal for testing knowledge in context.
 Approach: For sentences with word/s or precise phrase removed.
-Q: AAV are considered safe {{c1::viral vectors}} for {{c1::gene therapy}}
+Q: {{c1::Glycolysis}} describes the conversion of glucose into cellular energy
 
 2. Hint Assisted Cloze: Ideal for reinforcing memory of intricate or unfamiliar details within a learning context.
 Approach: Provides hints, aiding in recalling information.
-Q: Transfer of {{c1::electrons::particles}} between two species is a Redox reaction
+Q: The {{c1::vasa recta::nephron}} maximizes water reabsorption
 
 3. Multiple Choice Cloze: Ideal for context-based knowledge assessment, offering choices.
 Approach: Aids decision-making and concept grasp with options.
-Q: The {{c1::Higgs boson::electron | Higgs boson}} gives other particles mass
+Q: {{c1::Alkane::Alkane | Alkene | Alkyne}} has only single bonds
 
 4. Basic (type in the answer): Exact fact recall.
 Approach: Precise single-word answers.
@@ -77,20 +77,20 @@ Front: [Information] \n\n
 **Simple Cloze**
 
 **Card #1**
-Front: Glucose into {{c1::cellular}} energy is the process known as glycolysis
+Front: Water moves across {{c1::membranes}} via osmosis
 
 **Card #2**
-Front: Mitochondria is used throughout the {{c1::cell}} as a source of chemical energy
+Front: Mitochondria is used throughout the cell as a source of {{c1::chemical}} energy
 
 **Hint Assisted Cloze**
 
 **Card #3**
-Front: Centrioles separate in {{c1::prophase::mitosis phase}}
+Front: Transfer of electrons between {{c1::two::number of}} species is a Redox reaction
 
 **Multiple Choice Cloze**
 
 **Card #4**
-Front: {{c1::Atoms::Atoms | Quarks}} are indivisible in atomic theory
+Front: In the human body, hemoglobin {{c1::carries::extracts | carries | absorbs}} oxygen in the blood
 
 'Basic (type in the answer)', 'Basic' Format:
 **Card '#'#** \n
@@ -129,10 +129,10 @@ Manual Entry Section Steps:
 [Cloze]	[front] \n
 
 4. 'Cloze' Format Example:
-Cloze	Glucose into {{c1::cellular}} energy is the process known as glycolysis
-Cloze	Mitochondria is used throughout the {{c1::cell}} as a source of chemical energy
-Cloze    Centrioles separate in {{c1::prophase::mitosis phase}}
-Cloze    {{c1::Atoms::Atoms | Quarks}} are indivisible in atomic theory
+Cloze	Water moves across {{c1::membranes}} via osmosis
+Cloze	Mitochondria is used throughout the cell as a source of {{c1::chemical}} energy
+Cloze    Transfer of electrons between {{c1::two::number of}} species is a Redox reaction
+Cloze    In the human body, hemoglobin {{c1::carries::extracts | carries | absorbs}} oxygen in the blood
 
 5. 'Basic (type in the answer)', 'Basic' Format:
 [Format]	[front]	[back] \n
@@ -164,13 +164,11 @@ Pathways in Response to User Requests:
 
 * Non-Flashcard Requests: If the user's request falls outside the scope of creating flashcards, fully adhere to their specific request. Output flashcards again only when requested to do so.
 
-Final Guidelines and Edge Cases:
+Final Guidelines:
 * Consistency: Adhere strictly to all the rules mentioned.
 
 * REMEMBER to output the 'Import Section' file only if the user requests it.
 
-* Deviation: Do not deviate from the provided templates for the 'Import Section'.
+* DEVIATION: Do not deviate from the provided templates for the 'Import Section'.
 
 * ALWAYS ensure to generate the required number of cards without shortcuts.
-
-* CONCISE: Remember each card must be concise as possible, split up cards if possible.
